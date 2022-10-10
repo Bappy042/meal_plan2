@@ -1,0 +1,371 @@
+/* commoun CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Nav Section Start */
+nav{
+    width: 100%;
+    background-color: #ffece1;
+
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.container .row{
+    display: flex;
+}
+/* Nav Section Start */
+nav .container ul{
+    display: flex;
+}
+nav .container .logo{
+    width: 20%;
+}
+nav .container .menu_one{
+    width: 60%;
+
+}
+nav .container .menu_two{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 20px;
+    margin-left: auto;
+}
+nav .container ul li a{
+    display: inline-block;
+    font-size: 19px;
+    color: #649483;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 25px 30px 20px 23px;
+    text-transform: capitalize;
+}
+nav .container .menu_two img{
+    width: 20px;
+    padding: 2px;
+    margin: 2px;
+}
+nav .container .menu_two button{
+    padding: 10px;
+    color: #649483;
+
+}
+nav .container ul li:hover a{
+    background-color: blue;
+    border-radius: 20px;
+}
+/* banner section Start */
+#banner_item{
+    width: 100%;
+    /* background-image: url(../images/banner1.png); */
+    background-image: url(../images/banner1.png),url(../images/sape_1.png);
+    background-color:#ffece1 ;
+    height: 882px;
+    background-repeat: no-repeat;
+    background-position: left,right;
+}
+#banner_item .container .row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#banner_item .banner_1{
+    width: 50%;
+    background-color: #dd7017;
+}
+
+
+#banner_item .banner_2{
+    padding-top: 200px;
+    width: 50%;
+}
+#banner_item .container .banner_2 h2{
+    font-size: 100px;
+    color: #dd7017;
+    padding: 65px 0 0 0;
+
+}
+#banner_item .container .banner_2 button{
+    background-color: #639383;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner_2 a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #639383;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border: 2px solid #dd7017;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.banner_2 a:hover{
+    background-color: rebeccapurple;
+}
+h5{
+    font-size: 19px;
+    color: #649483;
+}
+.banner_3{
+    text-align: center;
+}
+.banner_3 img{
+    padding-top: 100px;
+    width: 500px;
+    height: 700px;
+}
+.banner_3 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #649483;
+}
+.banner_4{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #dd7017;
+    border-radius: 10px;
+    align-items: center;
+}
+.banner_4 .selection{
+    padding: 5px;
+    margin: 2px;
+
+}
+.banner_4 .selection img{
+    width: 100px;
+    height: 120px;
+    text-align: center;
+}
+.banner_4 .selection p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+h6{
+    transform: rotateZ(270deg)
+}
+/* banner Section End */
+/* Favor Section Start */
+#Favor{
+    width: 100%;
+    background-color: #649483;
+    height: 900px;
+}
+#Favor .Favor_1 h2{
+    font-size: 112px;
+    font-weight: 800;
+    color:#ffece1;
+    padding-top: 36px;
+}
+.Favor_1 p{
+    font-size: 17px;
+    color: #ffece1;
+    padding-bottom: 50px;
+}
+.Favor_2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.Favor_3{
+    background-color: #ffebe1;
+    margin-left: 10px;
+    height: 520px;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin: auto;
+
+}
+.Favor_3 img{
+    width: 300px;
+}
+.Favor_3 h5{
+    font-size: 19px;
+    color: #639383;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.Favor_3 p{
+    text-align: center;
+    color: #639383;
+    font-size: 19px;
+
+}
+/* Favor Section End */
+/* My meal_plan Section start */
+#meal_plan{
+    width: 100%;
+    background-color: #ffebe1;
+    height: 800px;
+    background-image: url(../images/New_images4.png);
+    background-repeat: no-repeat;
+}
+.meal_plan_1{
+    padding-top: 93px;
+}
+.meal_plan_1 img{
+    width: 450px;
+    height: 650px;
+    border-radius: 50px;
+}
+.main_meal_plan{
+    display: flex;
+}
+.meal_plan_2{
+    width: 50%;
+    padding-top: 93px;
+}
+.meal_plan_2 .bat{
+    display: flex;
+    padding-top: 49px;
+    padding-left: 70px;
+}
+.meal_plan_2 .bat .ball button{
+    background-color: #acc0b5;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+.meal_plan_2 .bat .ball button:hover{
+    background-color: #dd7017;
+}
+.meal_plan_2 h5{
+    padding-left: 70px;
+    font-size: 19px;
+}
+.meal_plan_2 h3{
+    font-size: 100px;
+    font-weight: 400;
+    color: #dd7017;
+    padding-left: 70px;
+    font-family: sans-serif;
+}
+.meal_plan_2 p{
+    padding-left: 70px;
+    padding-top: 20px;
+    color: #639383;
+}
+.meal_plan_2 .bat .ball{
+    padding-right: 20px;
+}
+.meal_plan_2 .bat .ball img{
+    border-radius: 50px;
+}
+/* my Meal_plan Section end */
+/* Receipt Section Start */
+#receipt {
+    width: 100%;
+    background-color: #ffebe1;
+    padding-top: 20px;
+    background-image: url(../images/receipt_shape.png);
+    background-position: bottom,right 25px;
+    background-repeat: no-repeat;
+
+
+}
+.receipt_main {
+    display: flex;
+}
+.receipt_1{
+    width: 50%;
+}
+.receipt_1 p{
+    font-size: 19px;
+    color: #649483;
+}
+.receipt_1 h5{
+    font-size: 112px;
+    color: #dd7017;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.receipt_2 {
+    width: 50%;
+}
+.receipt_2 img {
+    width: 500px;
+}
+.receipt_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.receipt_Img {
+    width: 50%;
+    padding-left: 20px;
+}
+.receipt_Img img{
+    width: 250px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.receipt_Img a{
+    border: 1 pc solid #639383;
+    background-color: #639383;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    text-transform:uppercase;
+    margin: -270px;
+}
+.receipt_Img a:hover{
+    background-color: #dd7017;
+}
+/* Receipt Section End */
+#process_main {
+    width: 100%;
+    background-color: #639383;
+    height: 800px;
+}
+.process_1 h2{
+    font-size: 100px;
+    color: #ffece1;
+
+}
+.process_1 p{
+    color: white;
+}
+.process_3{
+    display: flex;
+    text-align: center;
+}
+.process_2{
+    padding-top: 50px;
+}
+.process_2 i{
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+.process{
+    background-color: #ffebe1;
+    padding: 40px;
+    margin-left: 20px;
+    color: #dd7017;
+    border-radius: 20px;
+}
+.process p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.process img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
